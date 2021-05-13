@@ -110,3 +110,30 @@ services:
         tagstyle: "is-success"
         url: "https://nodered.pmcd.io"
         target: "_blank"
+
+  - name: "Monitoring"
+    icon: "fas fa-heartbeat"
+		items:
+			- name: "Grafana"
+			  logo: "assets/tools/sample2.png"
+				subtitle: "Graphing Dashboards"
+				tag: app
+				tagstyle: "is-success"
+				url: "https://grafana.pmcd.io"
+				target: "_blank"
+			
+			- name: "Chronograf"
+			  logo: "assets/tools/sample2.png"
+				subtitle: "Graphing Dashboards"
+				tag: app
+				tagstyle: "is-success"
+				url: "https://chronograf.pmcd.io"
+				target: "_blank"
+				
+			- name: "Prometheus"
+			  logo: "assets/tools/sample2.png"
+				subtitle: "Graphing Dashboards"
+				tag: app
+				tagstyle: "is-success"
+				url: "https://prometheus.pmcd.io"
+				target: "_blank"
